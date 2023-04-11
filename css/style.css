@@ -11,7 +11,7 @@ body {
 }
 header{
     width: 100%;
-    background-color: #893145;
+    background-color: #772C3D;
     position: fixed;
     z-index: 100;
     color:  #fff;
@@ -19,7 +19,7 @@ header{
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: #893145;
+  background-color: #772C3D;
   color: #fff;
 }
 .navbar {
@@ -112,7 +112,7 @@ h1 {
 
 .about-info h2 {
   font-size: 2em;
-  color: #893145;
+  color: #772C3D;
 }
 
 .divider {
@@ -190,7 +190,7 @@ h1 {
 .portfolio,
 .contact-section {
   width: 100vw;
-  background-color: #893145;
+  background-color: #772C3D;
   color: #fff;
 }
 
