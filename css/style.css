@@ -12,14 +12,14 @@ body {
 }
 header{
     width: 100%;
-    background-color: #85002F;
-    position: fixed;
+   background-image:url('/img/FONDO-BARRA.png') ;
+   
     z-index: 100;
     color:  #fff;
     margin-bottom: 1rem;
+    background-color: azure;
 }
 .wrapper {
-  width: 100vw;
   height: auto;
   background-color: #85002F;
   color: #fff;
@@ -29,7 +29,9 @@ header{
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 1em;
+  align-items: center;
+
 }
 .brand {
   width: 106px;
@@ -87,7 +89,14 @@ h1 {
   font-size: 3em;
 }
 
-
+.card-img {
+  height: 20rem;
+}
+.card {
+  height: 26rem;
+  margin: 1rem;
+  padding: 1rem;
+}
 
 .main img {
   border:  7px solid #49D100;
@@ -99,7 +108,6 @@ h1 {
 .about {
   display: grid;
   background-color: #85002F;
-  width: 100vw;
   align-items: center;
 }
 
@@ -163,7 +171,14 @@ h1 {
 }
 
 
-
+.habilidades-item{
+  padding: 1rem;
+  margin: 1rem;
+}
+.habilidades{
+  padding: 1rem;
+  margin: 1rem;
+}
 .contact-section {
   padding: 3em;
 }
@@ -193,22 +208,23 @@ h1 {
 .sotial-networks {
   display: flex;
   justify-content: space-evenly;
-  width: 300px;
+  width: 100%;
   margin-top: 1em;
 }
 
 .sotial-networks i {
   font-size: 1.5em;
+  color: black;
 }
-
+span {
+  font-size: initial;
+}
 .container {
-  width: 100vw;
   background-color: #85002F;
   color: #fff;
 }
 
 .section-heading {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -278,7 +294,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
   height: 200px;
   padding: 2em;
   background-color: #49D100;
@@ -294,16 +309,6 @@ h1 {
   text-align: center;
 }
 
-.sotial-networks {
-  display: flex;
-  justify-content: space-evenly;
-  width: 300px;
-  margin-top: 1em;
-}
-
-.sotial-networks i {
-  font-size: 1.5em;
-}
 
 .row{
   display: flex;
@@ -335,6 +340,7 @@ h1 {
 }
 img{
   width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 500px) {
