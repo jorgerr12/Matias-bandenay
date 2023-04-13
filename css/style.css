@@ -89,11 +89,8 @@ h1 {
   font-size: 3em;
 }
 
-.card-img {
-  height: 20rem;
-}
+
 .card {
-  height: 26rem;
   margin: 1rem;
   padding: 1rem;
 }
@@ -216,9 +213,7 @@ h1 {
   font-size: 1.5em;
   color: black;
 }
-span {
-  font-size: initial;
-}
+
 .container {
   background-color: #85002F;
   color: #fff;
@@ -308,13 +303,15 @@ span {
   font-size: 1.5em;
   text-align: center;
 }
-
+footer span {
+  font-size: initial;
+}
 
 .row{
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .col-md-2 {
@@ -328,7 +325,9 @@ span {
 .col-md-4 {
   width: 33.333%;
 }
-
+.col-md-5 {
+  width: 45%;
+}
 .col-md-6 {
   width: 50%;
 }
