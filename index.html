@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,13 +9,15 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 
+
+
 </head>
 
 <body>
   <header>
     <nav class="navbar">
       <div class="brand">
-       <img src="./img/LOGO-MENÚ.png" alt="">
+        <img src="./img/LOGO-MENÚ.png" alt="">
       </div>
       <ul class="menu">
         <li><a href="#" class="active">INCIO</a></li>
@@ -80,8 +85,10 @@
             </div>
             <div class="progress col-md-6">
               <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="" aria-valuemin="0"
-                aria-valuemax="100">80%</div>
+                aria-valuemax="100"></div>
+
             </div>
+            <div><span>80%</span></div>
           </div>
           <div class="row">
             <div class="logo-portfolio col-md-2">
@@ -89,8 +96,9 @@
             </div>
             <div class="progress col-md-6">
               <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="" aria-valuemin="0"
-                aria-valuemax="100">75%</div>
+                aria-valuemax="100"></div>
             </div>
+            <div><span>75%</span></div>
           </div>
           <div class="row">
             <div class="logo-portfolio col-md-2">
@@ -98,8 +106,9 @@
             </div>
             <div class="progress col-md-6">
               <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="" aria-valuemin="0"
-                aria-valuemax="100">45%</div>
+                aria-valuemax="100"></div>
             </div>
+            <div><span>45%</span></div>
           </div>
           <div class="row">
             <div class="logo-portfolio col-md-2">
@@ -107,8 +116,9 @@
             </div>
             <div class="progress col-md-6">
               <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="" aria-valuemin="0"
-                aria-valuemax="100">60%</div>
+                aria-valuemax="100"></div>
             </div>
+            <div><span>60%</span></div>
           </div>
           <div class="row">
             <div class="logo-portfolio col-md-2">
@@ -118,6 +128,7 @@
               <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="" aria-valuemin="0"
                 aria-valuemax="100">50%</div>
             </div>
+            <div><span>50%</span></div>
           </div>
 
         </div>
@@ -137,62 +148,141 @@
       <div class="divider"></div>
     </div>
     <div class="row">
-      <div class="col-md-2 col-sm-12">
+      <div class=" habilidad col-md-2 col-sm-12">
         <div class="card">
           <div class="card-img">
             <img src="img/low-poly.png" alt="">
           </div>
-          <div class="card-titulo">
-            <h2> Low Poly</h2>
+          <div class="card-titulo row">
+            <div class="col-md-10">
+              <h2> Low Poly</h2>
+            </div>
+            <div class="col-md-2">
+              <button onclick="show('tooltip-1')" id="button-tooltip">+</button>
+            </div>
+
           </div>
         </div>
+        <div id="tooltip-1" class="tooltip hidden">
+          <p>
+            Este trabajo me tardó muchos días en terminarlo, fue uno de mis mayores retos,
+            es una técnica en donde se necesita bastante paciencia y esfuerzo, de esa forma se logrará un gran resultado
+            con todo y detalles.
+          </p>
+          <button onclick="hiddenToolip('tooltip-1')" id="button-tooltip">-</button>
+        </div>
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class=" habilidad col-md-4 col-sm-12">
         <div class="card">
           <div class="card-img">
             <img src="./img/Selec.jpg" alt="">
           </div>
-          <div class="card-titulo">
-            <h2>ilustración Digital Realista</h2>
+          <div class=" card-titulo row">
+            <div class="col-md-10">
+              <h2>Ilustración Digital Realista</h2>
+            </div>
+            <div class="col-md-2">
+              <button onclick="show('tooltip-2')" id="button-tooltip">+</button>
+            </div>
           </div>
+        </div>
+        <div id="tooltip-2" class="tooltip hidden">
+          <p>
+            Realicé este proyecto con mucha dedicación y paciencia, ya que debía de
+            ilustrar lo mejor posible para llegar a la similitud con la realidad, fue muy complicado pero con un buen
+            resultado.
+          </p>
+          <button onclick="hiddenToolip('tooltip-2')" id="button-tooltip">-</button>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2 col-sm-12">
+      <div class="habilidad col-md-2 col-sm-12">
         <div class="card">
           <div class="card-img">
             <img src="img/Pop-Art-Lennon.jpg" alt="">
           </div>
-          <div class="card-titulo">
-            <h2> Ilustación Tradicional</h2>
+          <div class="card-titulo row">
+            <div class="col-md-10">
+              <h2> Ilustación Tradicional</h2>
+            </div>
+            <div class="col-md-2">
+              <button onclick="show('tooltip-3')" id="button-tooltip">+</button>
+            </div>
           </div>
         </div>
+        <div id="tooltip-3" class="tooltip hidden">
+          <p>
+            Pintar con pinceles fue un reto para mi, primero tuve que dibujar a mano
+            alzada el personaje y luego llegar a los tonos de colores para así empezar a trabajar con mucha precisión,
+            teniendo cuidado en los detalles.
+          </p>
+          <button onclick="hiddenToolip('tooltip-3')" id="button-tooltip">-</button>
+        </div>
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="habilidad col-md-4 col-sm-12">
         <div class="card">
           <div class="card-img">
             <img src="./img/cuate.jpg" alt="">
           </div>
-          <div class="card-titulo">
-            <h2>Rediceño De Etiqueta</h2>
+          <div class="card-titulo row">
+            <div class="col-md-10">
+              <h2>Rediseño De Etiqueta</h2>
+            </div>
+            <div class="col-md-2">
+              <button onclick="show('tooltip-4')" id="button-tooltip">+</button>
+            </div>
           </div>
+        </div>
+        <div id="tooltip-4" class="tooltip hidden">
+          <p>Para esta pieza gráfica, tuve muchos bocetos, varias propuestas y me decidí por esta, cambié un poco los
+            elementos siempre manteniendo los colores corporativos de la marca, quedó muy bien hecho.
+          </p>
+          <button onclick="hiddenToolip('tooltip-4')" id="button-tooltip">-</button>
         </div>
       </div>
     </div>
-   
+
   </section>
 
   <footer class="footer">
     <div class="footer-content">
       <h2>MATIAS BANDENAY</h2>
-      <h5>MB Creative</h5>
+      <h5>MB Creartive</h5>
     </div>
     <div class="sotial-networks">
-      <a href="https://www.facebook.com/juniormatias.bandenayrivera?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-whatsapp"> <span>  959947427</span> </i></a>
-      <a href="#"><i class="fab fa-envelope"><span>  Bandenaymatias@gmail.com</span> </i></a>
-
+      <div>
+        <a href="https://www.facebook.com/juniormatias.bandenayrivera?mibextid=ZbWKwL"><i
+            class="fab fa-facebook"></i></a>
+      </div>
+      <div>
+        <a href="https://instagram.com/matias_bandenay29?igshid=ZDdkNTZiNTM="><i
+            class="fab fa-instagram"></i></a>
+      </div>
+      
+      <div>
+        <a href="#"><i class="fab fa-whatsapp"> </i></a>
+        <span> 959947427</span>
+      </div>
+      <div>
+        <a href="#"><i class="fab fa-envelope"></i></a>
+        <span> bandenaymatias@gmail.com</span>
+      </div>
     </div>
   </footer>
+
 </body>
+<script>
+  const show = (tooltip) => {
+    let popUp = document.getElementById(tooltip)
+    popUp.classList.remove("hidden")
+  }
+
+  const hiddenToolip = (tooltip) => {
+    let popUp = document.getElementById(tooltip)
+    popUp.classList.add("hidden")
+  }
+
+</script>
+
+</html>
